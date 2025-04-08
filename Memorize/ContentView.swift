@@ -15,8 +15,7 @@ struct ContentView: View {
             ScrollView{
                 cards
             }
-         
-            Spacer()
+
             cardCountAdjusters
         }
           
@@ -82,6 +81,7 @@ struct Contentview_Previews: PreviewProvider {
     static var previews: some View{
         ContentView()
 //           .preferredColorScheme(.dark)
+        //第二次提交,可以吗
     }
 }
 
